@@ -52,12 +52,12 @@
 		"strings":{
 			"patterns": [
 				{
-					"name":"string.quoted.single.sql",
+					"name":"string.quoted.single.sheets",
 					"begin": "'",
 					"end": "'"
 				},
 				{
-					"name":"string.quoted.double.sql",
+					"name":"string.quoted.double.sheets",
 					"begin": "\"",
 					"end": "\""
 				}
@@ -78,11 +78,11 @@
 					"match": "\\b(?i)(FALSE|TRUE)\\b"
 				},
 				{
-					"name": "constant.character",
+					"name": "constant.character.sheets",
 					"match": "(<|>|=|!|\\$|:)"
 				},
 				{
-					"name": "constant.numeric",
+					"name": "constant.numeric.sheets",
 					"match": "[0-9]"
 				}
 			]
