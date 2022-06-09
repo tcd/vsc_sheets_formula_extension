@@ -1,6 +1,6 @@
 {
-    "name": "google-sheets-equation-syntax-hightlighter",
-    "displayName": "Google Sheets Equation Syntax Hightlighter",
+    "name": "google-sheets-equation-syntax-highlighter",
+    "displayName": "Google Sheets Equation Syntax Highlighter",
     "description": "A VSC extension to support Syntax highlighting for Google Sheets Equations",
     "publisher": "leonidasIIV",
     "version": "0.1.0",
