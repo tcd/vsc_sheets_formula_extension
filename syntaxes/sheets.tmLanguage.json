@@ -1,22 +1,13 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "Google Sheets Equations",
+    "scopeName": "source.sheets",
 	"patterns": [
-		{
-			"include": "#keywords"
-		},
-		{
-			"include": "#comments"
-		},
-		{
-			"include": "#support"
-		},
-		{
-			"include": "#strings"
-		},
-		{
-			"include": "#constants"
-		}
+		{ "include": "#keywords" },
+		{ "include": "#comments" },
+		{ "include": "#support" },
+		{ "include": "#strings" },
+		{ "include": "#constants" }
 	],
 	"repository": {
 		"keywords": {
@@ -87,6 +78,6 @@
 				}
 			]
 		}
-	},
-	"scopeName": "source.sheets"
+	}
+
 }
